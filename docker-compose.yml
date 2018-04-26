@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     build: .
-    image: tonnyvanhaeren/phpcms:1.0
+    image: tonnyvanhaeren/phpoop:1.0
     ports:
       - 80:80
     volumes:
@@ -20,7 +20,7 @@ services:
     env_file:
       - database.env
     volumes:
-      - ~/data/php-cms-mysql:/var/lib/mysql  
+      - ~/data/php-oop-mysql:/var/lib/mysql  
   redis:
     image: redis:4.0-alpine
     ports:
