@@ -6,3 +6,4 @@ database.env
 composer
 composer.phar
 /config
+/oopsandbox
